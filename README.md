@@ -1,13 +1,10 @@
-# 📝 BERT-Powered Resume Ranker + Job Matcher
-
-![Python](https://img.shields.io/badge/python-3.8%2B-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+# BERT-Powered Resume Ranker + Job Matcher
 
 This project helps evaluate how well a resume matches a job description using semantic similarity powered by BERT embeddings.
 
 ---
 
-## 🚀 Features
+## Features
 - Upload a resume (PDF)
 - Paste any job description
 - Get a **match score (%)** based on BERT similarity
@@ -17,7 +14,7 @@ This project helps evaluate how well a resume matches a job description using se
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 - **NLP Model**: Sentence Transformers (`all-MiniLM-L6-v2`)
 - **Backend**: FastAPI
 - **Frontend**: Streamlit
@@ -25,7 +22,7 @@ This project helps evaluate how well a resume matches a job description using se
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```
 bert_resume_matcher/
 ├── app/
@@ -41,7 +38,7 @@ bert_resume_matcher/
 
 ---
 
-## ⚙️ Setup & Run
+## Setup & Run
 ### 1. Clone the Repo
 ```bash
 git clone https://github.com/yourusername/bert_resume_matcher.git
@@ -67,33 +64,7 @@ streamlit run app/main.py
 
 ---
 
-## 📸 Demo
-
-![Demo Screenshot](demo/demo_screenshot.png)
-
----
-
-## 🔍 Sample Output
-```
-Resume matched with job description.
-✅ Match Score: 82.5%
-```
-
----
-
-## 🙌 Contributions Welcome
-Open to suggestions, improvements, or integrations (like LinkedIn scraping, keyword highlighting, etc.)
-
----
-
-## 📜 License
-MIT License
-
----
-
 ## 💡 Inspiration
 Built to bridge the gap between machine learning and real-world job matching use cases. Ideal for job seekers, recruiters, and career platforms.
 
 ---
-
-**Let’s connect!** → [LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/yourusername)
